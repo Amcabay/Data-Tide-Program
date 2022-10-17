@@ -39,8 +39,8 @@ namespace Program
             //Clear
             chart.Series.Clear();
 
-            Series newSeries = new Series("TideChart");
-            newSeries.ChartType = SeriesChartType.Spline;
+            Series newSeries = new Series("TideChart - Project1");
+            newSeries.ChartType = SeriesChartType.Line;
             newSeries.BorderWidth = 2;
             newSeries.Color = Color.IndianRed;
             newSeries.XValueType = ChartValueType.DateTime;

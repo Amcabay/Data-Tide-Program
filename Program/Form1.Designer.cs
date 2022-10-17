@@ -42,7 +42,7 @@
             this.chart.Legends.Add(legend1);
             this.chart.Location = new System.Drawing.Point(0, 0);
             this.chart.Name = "chart";
-            this.chart.Size = new System.Drawing.Size(628, 438);
+            this.chart.Size = new System.Drawing.Size(927, 558);
             this.chart.TabIndex = 0;
             this.chart.Text = "chart1";
             // 
@@ -50,7 +50,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(925, 553);
             this.Controls.Add(this.chart);
             this.Name = "Form1";
             this.Text = "Form1";
